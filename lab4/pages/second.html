@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Вторая страница</title>
+<style>
+#par1
+{
+width: fit-content;
+border: 0.2em solid  rgb(129, 81, 41);
+}
+#par2
+{
+width: fit-content;
+border-left: 0.2em solid  rgb(202, 46, 46);
+border-right: 0.2em solid  rgb(202, 46, 46);
+}
+#par3
+{
+    width: fit-content; 
+    border-top: 0.2em solid  rgb(202, 62, 156);
+    border-bottom: 0.2em dashed rgb(44, 182, 247);
+    border-left: 0.2em dashed rgb(44, 182, 247);
+    border-right: 0.2em dashed rgb(44, 182, 247);
+   
+}
+#par4
+{
+    width: fit-content;
+    border: 1px solid rgb(211, 171, 38);
+}
+#par5
+{
+    width: fit-content;
+    border-top: 2px solid rgb(223, 27, 27);
+    border-bottom: 2px solid rgb(223, 27, 27);
+    border-left: 2px dashed rgb(136, 136, 136);
+    border-right: 2px dashed rgb(136, 136, 136);
+}
+#par6
+{
+    width: fit-content;
+    border: 8px double #1435AD;
+}
+#par7
+{
+    width: fit-content;
+    border-top: 1px dashed #FF8100;
+    border-bottom: 2px solid #0B6124;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-block {
+    border: 0.5em solid rgb(88, 88, 240);
+    width: 20%;
+    display: inline-block;
+}
+
+
+.second-block {
+    align-self: ;
+    border: 0.5em dotted rgb(207, 205, 49);
+    width: 20%;
+    display: inline-block;
+}
+
+.second-block h3 {
+    margin-left: 2em;
+}
+
+.second-block ol {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+</style>
+</head>
+<body>
+<p id='par1'>Я имею сплошную границу коричневого цвета.</p>
+<p id='par2'>Я имею сплошную границу красного цвета слева и справа.</p>
+<p id='par3'>Я имею сплошную границу розового цвета сверху, и пунктирную границу голубого цвета слева, спра-ва и снизу.</p>
+<p id='par4'>Я имею границу оранжевого цвета толщи-ной 1 пиксель.</p>
+<p id='par5'>Я имею границу красного цвета толщиной 2 пикселя сверху и снизу и пунктирную границу серого цвета слева и справа.</p>
+<p id='par6'>Я имею двойную сплошную границу #1435AD цвета. </p> 
+<p id='par7'>Я имею пунктирную границу #FF8100 цвета и толщиной 1 пиксель сверху и сплошную границу #0B6124 цвета толщиной 2 пикселя снизу. </p> 
+<div class="blocks">
+    <div class="first-block">
+        <ul>
+            <li>
+                <a href="../../lab1/index.html">Задание №1</a>
+            </li>
+            <li>
+                <a href="../../lab2/index.html">Задание №2</a>
+            </li>
+            <li>
+                <a href="../../lab3/index.html">Задание №3</a>
+                <ol>
+                    <li>
+                        <a href="../index.html">Задание 4.1</a>
+                    </li>
+                    <li>
+                        <a href="#">Задание 4.2</a>
+                    </li>
+                    <li>
+                        <a href="../pages/third.html">Задание 4.3</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <div class="second-block">
+        <h3>Бодибилдеры?</h3>
+        <ul>
+            <li>
+                    ЛАРРИ СКОТТ
+            </li>
+            <li>
+                    АРНОЛЬД ШВАРЦЕНЕГГЕР
+            </li>
+            <li>
+                    ЛИ ХЕЙНИ
+                <ol>
+                    <li>
+                            РОСТ: 180 см
+                    </li>
+                    <li>
+                            ГОДЫ ЖИЗНИ: 11.11.1959 — настоящее время
+                    </li>
+                    <li>
+                            ПРОЗВИЩЕ: нет
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

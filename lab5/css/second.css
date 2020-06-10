@@ -1,0 +1,25 @@
+body {
+    background-image: url(../img/bg1.jpg);
+    background-repeat: space;
+}
+
+.wrapper div {
+    margin: 4em 5.5%;
+    display: inline-block;
+}
+
+.first_ball {
+    transform: translate(-5em, -25%);
+}
+
+.second_ball {
+    transform: scale(1, 1.5);
+}
+
+.third_ball {
+    transform: skew(30deg, 20deg);
+}
+
+.fourth_ball {
+    transform: rotate(0.5turn);
+}

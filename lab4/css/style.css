@@ -1,0 +1,41 @@
+
+
+    #wrap {
+        margin:0px;
+        padding:20px;
+        height:fit-content;
+        background-color:yellow;
+        }
+        .ex1 {
+        margin: 2em 0;
+        border:10px red solid;
+        margin-left:50px;
+        margin-right:10px;
+        padding:15px;
+        background-color:green;
+        color:white;
+        width: 50em;
+        }
+        .ex2 {
+        margin: 2em 0;
+        border:5px brown solid;
+        margin-top:30px;
+        margin-left:250px;
+        margin-right:70px;
+        padding:15px;
+        background-color:green;
+        color:white;
+        width: 50em;
+        }
+
+        .ex3 {
+            text-align: center;
+            border:5px brown dashed;
+            margin: 2em auto 0 auto;
+            padding:15px;
+            background-color:rgb(47, 196, 27);
+            color: rgb(219, 0, 0);
+            width: 50em;
+            font-family: 'Monotype Corsiva';
+            font-size: 1.5em;
+            }        

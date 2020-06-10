@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+           url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+   }
+
+body {
+    background-image: url(../img/bg2.jpg), url(../img/bg1.jpg);
+    background-repeat: no-repeat, space;
+    background-size: 35em, 100%;
+    background-attachment: fixed;
+    background-position: right top;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.colors div {
+    margin: 2em 0;
+    border:10px rgba(0, 0, 0, 0.89) solid;
+    margin-left:50px;
+    margin-right:10px;
+    padding:2em;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 153, 255);
+    width: 20em;
+    text-align: center;
+}
+
+.colors div:nth-child(1) {
+    background-color: rgba(182, 140, 90, 0.83);
+    border-radius: 5% 5% 30% 30%;
+    box-shadow: 0 0 3em hsla(50, 90%, 73%, 0.9);
+}
+
+.colors div:nth-child(2){
+    background-color: hsla(60, 80%, 50%, 0.80);
+    border-radius: 40% 5% 40% 5%;
+    box-shadow: 0 0 2em hsla(50, 90%, 73%, 0.9);
+}
+
+.colors div:nth-child(3){
+    background-color: hsl(100, 80%, 30%);
+    border-radius: 30% 30% 0 0;
+    box-shadow: 0 0 2em hsla(50, 90%, 73%, 0.9);
+}
+
+.colors div:nth-child(4){
+    background-color: rgba(0, 0, 0, 0.8);
+    border-image: url(../img/border-bg.jpg);
+    box-shadow: 0 0 3em hsla(50, 90%, 73%, 0.5);
+}

@@ -1,0 +1,90 @@
+
+body {
+    background-color: rgb(211, 177, 177);
+}
+h1, h2, h3, span {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(44, 124, 216);
+    text-decoration: underline;
+    text-decoration: blink;
+    
+}
+
+h1, h2, h3 {
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+  }
+  @-webkit-keyframes blink {
+    50% { color: rgb(44, 124, 216); }
+    51% { color: rgb(44, 124, 216); }
+    100% { color: rgba(0, 0, 0, 0); }
+  }
+  @keyframes blink {
+    50% { color: rgb(44, 124, 216); }
+    51% { color: rgb(44, 124, 216); }
+    100% { color: rgba(0, 0, 0, 0); }
+}
+
+
+
+
+.first {
+    letter-spacing: 5px;
+    text-align: center;
+    text-indent: 20pt;
+    line-height: 1.5; 
+    font-size: 14pt; 
+    color:rgb(255, 208, 56);
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    font-style: italic;
+}
+
+.first span {
+    color: black;
+}
+
+#extra_span {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color:black;
+}
+
+.second {
+    letter-spacing: 3px;
+    text-align: right;
+    text-indent: 30pt;
+    line-height: 2; 
+    font-size: 17pt; 
+    color:rgb(39, 91, 139);
+    background-color: rgb(245, 146, 17);
+    font-family: 'Monotype Corsiva';
+    word-spacing: 2px;
+}
+
+.second .ad_span1 {
+    color: rgb(255, 255, 255);
+    background-color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+}
+
+.third {
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-indent: 40pt;
+    line-height: 4; 
+    font-size: 20pt; 
+    color:rgb(99, 30, 156);
+    background-color: rgb(179, 255, 56);
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1.2px;
+}
+
+.third .ad_span2 {
+    color: rgb(255, 255, 255);
+    background-color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}

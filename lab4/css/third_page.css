@@ -1,0 +1,33 @@
+
+.addition-list1{
+    color: rgb(255, 0, 0);
+    background: rgb(218, 218, 49);
+    font-size: 18pt;
+    list-style: square;
+    font-family: 'Monotype Corsiva', serif;
+}
+
+.addition-list2{
+    list-style-image: url(../img/writer.png);
+    color: rgb(73, 73, 221);
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.addition-list3 {
+    padding: 0;
+}
+
+.addition-list3 li::before{
+    color: rgb(73, 73, 221);
+    content:"\2022";
+    padding-right: 5pt;
+}
+
+.addition-list3 li{
+    list-style:none;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+}
